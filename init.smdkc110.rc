@@ -13,3 +13,4 @@ on boot
 
 service smdkc110-setup /system/etc/init.smdkc110.sh
     oneshot
+
