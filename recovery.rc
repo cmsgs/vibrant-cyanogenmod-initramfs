@@ -1,6 +1,5 @@
 on init
 
-# GyuTae FIX : we should not use system partition!!!!!
 #	export PATH /sbin:/bin
 
 	export PATH /sbin:/system/bin
@@ -52,4 +51,3 @@ on property:persist.service.adb.enable=1
 
 on property:persist.service.adb.enable=0
 	stop adbd
-
